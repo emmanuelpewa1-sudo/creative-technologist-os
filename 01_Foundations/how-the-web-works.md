@@ -19,3 +19,5 @@ HTML/CSS/Javascript/Assets
 Browser
     |
 Webpage appears
+
+Day 2 Git Practice
