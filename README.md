@@ -22,3 +22,7 @@ My goal is to combine creativity, technology, and entrepreneurship to build digi
 Orientation Complete
 
 Week 1 — Web Fundamentals
+
+## Git Practice
+
+Day 2: Learning Git branches and version control
