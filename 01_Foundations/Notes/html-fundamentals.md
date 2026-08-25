@@ -16,18 +16,3 @@ JavaScript = Behaviour
 
 <tag>Content</tag>
 
-Example:
-
-<p>Hello World</p>
-
-## HTML document structure
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Page Title</title>
-</head>
-<body>
-
-</body>
-</html>

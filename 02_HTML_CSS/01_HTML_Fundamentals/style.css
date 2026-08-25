@@ -1,0 +1,76 @@
+body{
+    background-color:lightgray;
+    font-family: Arial, Sans-serif;
+}
+
+h1{
+    color:darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+color:darkblue;
+font-size: 28px;
+}
+
+.intro{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+p{
+font-size: 16px;
+line-height: 1.6;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+#contact {
+    background-color: #eeeeee;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+
+h2{
+    #contact h2{
+        color: darkblue;
+    }
+}
+
+figure{
+text-align:center;
+}
+
+figure img {
+border-radius: 50%;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    margin: 0 10px;
+}
+
+input, select, textarea {
+    padding:8;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
