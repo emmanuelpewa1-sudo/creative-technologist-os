@@ -5,14 +5,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Creative Technologist Journey</title>
     </head>
-    <body>
+
+      <body>
         <header>
             <h1>My Creative Technologist Journey - Article One</h1>
-        </header>
-            
-        <main>
+        
+
+    <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#goals">Goals</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            About me
+        </section>
+
+        <section id="skills">
+            Skills
+        </section>
+
+        <section id="goals">
+            Goals
+        </section>
+        <section id="philosophy">
+            CTOS Philosophy
+        </section>
+        <section id="contact">
+            Contact
+        </section>
+
+        <article>
+            <h1>My Creative Technologist Journey</h1>
+        </article>
+
+    <aside>
+        Current Focus
+    </aside>
+
             <section>
-             <h2>About Me</h2>
+             <h2>About Me</h2> 
         <p>Self-taught graphic designer | IT & Creative Technology enthusiast | Digital Printing Entrepreneur | Youth Leader & Community Service Advocate. <br> Building skills, creating impact, and continuously learning.
             My name is Emmanuel Pewa, and I am learning to become a Creative Technologist. <br> I am building
             my skills in technology, creativity, and design to create innovative solutions that bridge the gap between art and technology. <br> My goal is to develop interactive experiences that engage users and push the boundaries of digital creativity </p>
@@ -43,12 +79,53 @@
                 <h2>My CTOS Philosophy</h2>
                 <p>CTOS stands for Creative Technologist Operating System. <br> It is a philosophy that guides my approach to learning and creating as a creative technologist. <br> The CTOS philosophy emphasizes the importance of continuous learning, experimentation, and collaboration in the pursuit of innovation and creativity. <br> By embracing the CTOS philosophy, I aim to develop a mindset that allows me to adapt to new technologies, explore new ideas, and create meaningful experiences that have a positive impact on society.</p>
             </section>
-             <img src="images/profile.jpg" alt="Emmanuel Pewa" width="200" height="200"> <br>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+            <label for="services">Services:</label><br>
+                    <select id="services" name="services" required>
+                        <option value="">Select a service</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="design">Design</option>
+                        <option value="development">Development</option>
+                        <option value="photography">Photography</option>
+                        <option value="videography">Videography</option>
+                        <option value="digital marketing">Digital Marketing</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        rows="5" 
+                        cols="30" 
+                        required>
+                    </textarea>
+
+                    <button type="submit">
+                        Submit
+                    </button>
+                </form>
+
+
+             <figure>
+                <img src="images/profile.jpg" 
+                alt="Emmanuel Pewa" 
+                width="200" 
+                height="200">
+             </figure>
         </main>
 
         <footer> 
                 <a href="https://www.linkedin.com/in/emmanuel-pewa-6a81a812a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-        Connect with me on LinkedIn</a>
+                Connect with me on LinkedIn</a>
         </footer>       
     </body>
 </html>
