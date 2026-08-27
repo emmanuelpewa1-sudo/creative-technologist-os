@@ -74,3 +74,31 @@ footer {
     padding: 20px;
 }
 
+main{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    flex: 1 1 150px;
+    
+}
+
+@media (max-width: 600px){
+    main{
+        width: 95%;
+    }
+    .skills-container {
+            flex-direction: column;
+    }
+}
