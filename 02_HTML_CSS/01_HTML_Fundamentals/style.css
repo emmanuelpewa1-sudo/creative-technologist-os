@@ -102,3 +102,64 @@ main{
             flex-direction: column;
     }
 }
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.badge {
+    position:absolute;
+    top: 0px;
+    right: 20px;
+
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+.floating-button {
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    padding: 12px 18px;
+
+    background-color: darkblue;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
